@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from rest_framework import viewsets, status
+# from django.shortcuts import render
+from rest_framework import viewsets
+# from rest_framework import status
 from rest_framework.response import Response
 from .models import Invoice, InvoiceDetail
 from .serializers import InvoiceSerializer, InvoiceDetailSerializer
@@ -21,6 +22,6 @@ class InvoiceDetailViewSet(viewsets.ModelViewSet):
     serializer_class = InvoiceDetailSerializer
 
 
-def invoice_list(request):
-    invoices = Invoice.objects.all()
-    return render(request, 'index.html', {'invoices': invoices})
+# def invoice_list(request):
+#     invoices = Invoice.objects.all()
+#     return render(request, 'index.html', {'invoices': invoices})
