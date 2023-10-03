@@ -15,34 +15,12 @@ This is a Django application built using Django Rest Framework for managing invo
    ```bash
    git clone https://github.com/Mukeshmiet/InvoiceDjangoApp.git
 
-
-Certainly! Here's the README.md file with proper formatting, including headers, bullet points, and other symbols:
-
-markdown
-Copy code
-# Django Rest Framework Invoice Application
-
-This is a Django application built using Django Rest Framework for managing invoices and their details. It provides API endpoints for creating, reading, updating, and deleting invoices and invoice details.
-
-## Features
-
-- Create, Read, Update, and Delete (CRUD) operations for invoices and invoice details.
-- APIs to manage invoices and their associated details.
-- Supports listing and viewing individual invoices and details.
-
-## Setup Instructions
-
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/django-invoice-app.git
-
 ### Navigate to the project directory:
 
 cd djangoInvoices
-
+   
 ### Create a virtual environment (optional but recommended):
-
+   
 python -m venv venv
 
 ### Activate the virtual environment:
